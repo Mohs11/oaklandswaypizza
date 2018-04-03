@@ -1,0 +1,168 @@
+body {
+font-family: 'Quicksand', sans-serif;
+}
+
+/* Landing */
+.landingbackgroundimage {
+	background: #333 url(ovenback.png) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.landing {
+	background: rgba(60, 60, 60,0.85);  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(60, 60, 60,0.85), rgba(0,0,0,0.85));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(60, 60, 60,0.85), rgba(0,0,0,0.95)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-bottom: 25%;
+}
+
+.bigheader {
+	background-color: rgba(0,0,0,0);
+	padding-top: 25%;
+	text-align: center;
+	color: white;
+}
+
+.bigheader-small{
+	font-size: 45pt;
+	font-weight: 200;
+	text-shadow: 0 0 3px black;
+}
+.bigheader-large{
+	font-size: 45pt;
+	font-weight: 700;
+	text-shadow: 0 0 3px black;
+}
+
+.bigtag {
+	font-size: 16pt;
+
+}
+
+.smalltag {
+	font-size: 14pt;
+}
+
+.landingpizza {
+	width: 50px;
+	height: auto;
+}
+
+@media screen and (min-width: 480px) {
+    .landingpizza {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Landing End */
+
+/* Nav */
+nav {
+	background:white;
+	width: 100%;
+	height: 100px;
+}
+
+/*About*/
+.aboutusbackground {
+	background-color: #efefef;
+}
+
+.aboutusoverlay {
+
+}
+
+.fronthead h1{
+	color: rgb(231, 76, 60);
+	font-size: 32pt;
+	text-align: center;
+	padding-top: 20px;
+	border-bottom: 1px solid rgb(211, 84, 0);
+
+}
+
+.fronthead h2{
+	color: rgb(231, 76, 60);
+	font-size: 15pt;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.fronthead p{
+	color: black;
+	font-weight: 300;
+	font-size: 16pt;
+	text-align: center;
+}
+
+.pizzatag {
+	text-align: center;
+}
+
+/*Menu*/
+.menubackground {
+	
+}
+
+.menu {
+	background: white;
+}
+
+
+.pizza {
+	background-color: #F9F9F9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 10px solid rgba(0, 0, 0, 0);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+}
+
+.pizza h1 {
+	text-align: center;
+	color: black;	
+	font-size: 14pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 700;
+
+}
+
+.pizza h2 {
+	text-align: center;
+	color: black;	
+	font-size: 14pt;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+
+}
+
+.pizza p {
+	text-align: center;
+	color: black;	
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.pizzaicon {
+	max-width: 300px;
+	height: auto;
+
+}
+
+.v {
+	color: green;
+	font-size: 15pt;
+	font-weight: 700;
+}
+
+.m {
+	color: red;
+	font-size: 15pt;
+	font-weight: 700;
+}
+
